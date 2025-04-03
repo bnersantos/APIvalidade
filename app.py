@@ -65,7 +65,7 @@ def validadeprodutos(produto, data_fabricacao):
             situacao = 'Execedeu o prazo de validade!'
         else:
             situacao = 'Execede o prazo de validade hoje!'
-        
+
         # Retornar os dados em formato JSON
         return jsonify({
             "produto": produto,
